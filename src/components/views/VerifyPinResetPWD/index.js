@@ -5,7 +5,7 @@ import { StyleSheet, Alert, Image,TouchableOpacity, View } from 'react-native'
 import { CustomButton, CustomTextInput } from 'react-widgets'
 import metrics from '../../../config/metrics'
 import imgLogo from '../../../assets/ixin.png' 
-import { Api as ApiService } from '@common/services'
+import { Api as ApiService } from 'common-services'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 const IMAGE_WIDTH = metrics.DEVICE_WIDTH * 0.8

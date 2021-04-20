@@ -3,7 +3,7 @@ import { StyleSheet, View, TextInput,Dimensions,Image, Text, TouchableOpacity } 
 import { colors, measures } from 'eslint-config-populist'; 
 import { Camera } from 'react-widgets';
 import { CustomButton } from 'react-widgets'
-import { Api as ApiService } from '@common/services'; 
+import { Api as ApiService } from 'common-services'; 
 import Spinner from 'react-native-loading-spinner-overlay';
 
 let deviceWidth = Dimensions.get('window').width;

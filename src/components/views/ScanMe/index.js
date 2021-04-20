@@ -3,7 +3,7 @@ import { Image, View, StyleSheet,Text,TouchableOpacity,Dimensions, TextInput } f
  
 import { CustomButton } from 'react-widgets';
 import QRCode from 'react-native-qrcode-svg'; 
-import { Url } from '@common/constants';
+import { Url } from 'common-constants';
  
 import Share from 'react-native-share';
 let deviceWidth = Dimensions.get('window').width;

@@ -4,7 +4,7 @@ import { FlatList, RefreshControl, StyleSheet, Text, Image, View,Dimensions,
 import { colors, measures } from 'eslint-config-populist'; 
 import NoCards from './NoCards'; 
 import AppKeyCard from './AppKeyCard';  
-import { Api as ApiService } from '@common/services';
+import { Api as ApiService } from 'common-services';
  
 
 export class AppKeyView extends React.Component {

@@ -4,7 +4,7 @@ import { StyleSheet,View,Image, Alert,TouchableOpacity} from 'react-native'
 //import { Image, View } from 'react-native-animatable'
 import { CustomButton, CustomTextInput } from 'react-widgets'
 import metrics from '../../../config/metrics' 
-import { Api as ApiService } from '@common/services'
+import { Api as ApiService } from 'common-services'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import PhoneInput from 'react-native-phone-input';
 import CountryPicker from 'react-native-country-picker-modal';

@@ -1,5 +1,5 @@
 import { tokenpons as TokenponsStore } from '@common/stores';
-import { Api as ApiService } from '@common/services';
+import { Api as ApiService } from 'common-services';
 
 
 export async function getTokenpons(offset, limit, published, cat, subcat, searchtext) {

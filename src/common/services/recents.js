@@ -1,5 +1,5 @@
 import * as StorageService from './storage';
-import { Recents } from '@common/constants';
+import { Recents } from 'common-constants';
 
 export async function loadRecentAddresses() {
     const recents = await StorageService.getItem(Recents.STORAGE_KEY);

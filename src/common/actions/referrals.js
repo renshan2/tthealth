@@ -1,5 +1,5 @@
 import { referrals as ReferralStore } from '@common/stores';
-import { Api as ApiService } from '@common/services';
+import { Api as ApiService } from 'common-services';
 
 export async function addReferral(userid, mobile) { 
     //console.log("actions addReferral userid, mobile: ", userid, mobile);

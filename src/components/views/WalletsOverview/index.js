@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { FlatList, RefreshControl, StyleSheet, Text, View, Image,
   TouchableOpacity,} from 'react-native'; 
 import { colors, measures } from 'eslint-config-populist';
-import { General as GeneralActions, Wallets as WalletActions,  MarketPrices as MarketPricesActions } from '@common/actions';
+//import { General as GeneralActions, Wallets as WalletActions,  MarketPrices as MarketPricesActions } from '@common/actions';
 import NoWallets from './NoWallets';
 import WalletCard from './WalletCard';
 //var async = require('async');
@@ -92,7 +92,7 @@ export class WalletsOverview extends Component {
 
         } catch (e) {
             console.log('WalletsOverview populate e: ', e);
-            GeneralActions.notify(e.message, 'long');
+            //GeneralActions.notify(e.message, 'long');
         }
     }
      

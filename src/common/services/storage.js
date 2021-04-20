@@ -1,5 +1,5 @@
 import SensitiveInfoStorage from 'react-native-sensitive-info';
-import { Storage } from '@common/constants';
+import { Storage } from 'common-constants';
 
 export function getItem(key) {
  // console.log('storage getItem key: ', key);

@@ -1,5 +1,5 @@
 import { marketPrices as MarketPricesStore } from '@common/stores';
-import { Wallets as WalletsService, Api as ApiService } from '@common/services';
+import { Wallets as WalletsService, Api as ApiService } from 'common-services';
 import { CoinData } from '../constants/Data';
 import { Alert } from 'react-native';
 

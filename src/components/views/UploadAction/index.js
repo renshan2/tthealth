@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View,TextInput, Image,Dimensions,TouchableOpacity, Text, Alert} from 'react-native';
 import { colors, measures } from 'eslint-config-populist'; 
 import Checkbox from 'react-native-modest-checkbox';
-import { Api as ApiService } from '@common/services';
+import { Api as ApiService } from 'common-services';
 import { CustomButton } from 'react-widgets'
 import { mobileAppName, mobileAppKey } from '../../../common/constants/Data';
 

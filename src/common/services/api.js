@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Url } from '@common/constants';
+import { Url } from 'common-constants';
 import { TokenponAppId, mobileAppKey } from '../constants/Data';
 import { tokenpons as TokenponsStore } from '@common/stores';
 

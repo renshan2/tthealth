@@ -1,4 +1,4 @@
-import { Api as ApiService } from '@common/services';
+import { Api as ApiService } from 'common-services';
 import { prices as PricesStore, wallets as WalletsStore } from '@common/stores';
 import { Alert } from 'react-native';
 

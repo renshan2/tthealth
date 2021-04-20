@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View,TextInput, Image,Dimensions, TouchableOpacity, Text} from 'react-native';
 import { colors, measures } from 'eslint-config-populist'; 
 import Checkbox from 'react-native-modest-checkbox';
-import { Api as ApiService } from '@common/services';
+import { Api as ApiService } from 'common-services';
 import { CustomButton } from 'react-widgets' 
 import metrics from '../../../config/metrics'
 import PhoneInput from 'react-native-phone-input';

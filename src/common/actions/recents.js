@@ -1,4 +1,4 @@
-import { Recents as RecentsService } from '@common/services';
+import { Recents as RecentsService } from 'common-services';
 import { recents as RecentsStore } from '@common/stores';
 
 export async function loadRecents(store=RecentsStore, service=RecentsService) {
