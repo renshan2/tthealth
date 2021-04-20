@@ -1,3 +1,5 @@
+# this is a working tthealthy project. Github repo name is renshan2/tthealth
+
 install android studio (separate installation)
 set up environment variable JAVA_HOME to point to android studio jre path
 create a working folder
@@ -16,3 +18,8 @@ react-native start
 react-native run-android
 # for ios
 react-native run-ios 
+
+# notes: 4/20/2021
+Do not upgrade from common-style to  eslint-config-populist
+
+
