@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, RefreshControl, StyleSheet, Text, Image, View,TextInput,
   TouchableOpacity,} from 'react-native'; 
-import { colors, measures } from 'common-style'; 
+import { colors, measures } from 'eslint-config-populist'; 
 import NoCards from './NoCards'; 
 import AppKeyCard from './AppKeyCard'; 
 import { Api as ApiService } from '@common/services';

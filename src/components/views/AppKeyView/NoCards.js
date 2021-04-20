@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { colors } from 'common-style';
+import { colors } from 'eslint-config-populist';
 
 export default () => (
     <View style={styles.container}>

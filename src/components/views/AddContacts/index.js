@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, TextInput,Dimensions,Image, Text, TouchableOpacity } from 'react-native';
-import { colors, measures } from 'common-style'; 
+import { colors, measures } from 'eslint-config-populist'; 
 import { Camera } from 'react-widgets';
 import { CustomButton } from 'react-widgets'
 import { Api as ApiService } from '@common/services'; 

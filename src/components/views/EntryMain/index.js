@@ -3,7 +3,7 @@ import { TabView } from 'react-widgets';
 import { ProfileSettings, ShareData } from '..';
 import { AppState} from 'react-native';
 import { HeaderIcon } from 'react-widgets';
-import { colors } from 'common-style'; 
+import { colors } from 'eslint-config-populist'; 
 //import { wallets as WalletsStore } from '@common/stores'; 
 import { WalletsOverview } from '../WalletsOverview';
 

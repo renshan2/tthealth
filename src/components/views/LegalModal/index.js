@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import Spinner from 'react-native-loading-spinner-overlay'; 
-import { colors, measures } from 'common-style';
+import { colors, measures } from 'eslint-config-populist';
 import { WebView } from 'react-native-webview';
 import PDFView from 'react-native-view-pdf';
 import { CustomButton } from '../../../components/widgets'

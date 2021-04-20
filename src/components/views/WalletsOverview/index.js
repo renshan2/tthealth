@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { FlatList, RefreshControl, StyleSheet, Text, View, Image,
   TouchableOpacity,} from 'react-native'; 
-import { colors, measures } from 'common-style';
+import { colors, measures } from 'eslint-config-populist';
 import { General as GeneralActions, Wallets as WalletActions,  MarketPrices as MarketPricesActions } from '@common/actions';
 import NoWallets from './NoWallets';
 import WalletCard from './WalletCard';

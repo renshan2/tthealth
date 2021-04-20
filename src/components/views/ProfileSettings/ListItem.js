@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
-import { measures } from 'common-style';
+import { measures } from 'eslint-config-populist';
 
 export default ({ children, onPress }) => (
     <TouchableWithoutFeedback onPress={onPress}>

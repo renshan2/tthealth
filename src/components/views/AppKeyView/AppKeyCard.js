@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'; 
 import Clipboard from '@react-native-community/clipboard';
 import { CustomButton } from 'react-widgets';
-import { colors, measures } from 'common-style'; 
+import { colors, measures } from 'eslint-config-populist'; 
 import metrics from '../../../config/metrics'; 
 import { General as GeneralActions } from '@common/actions';
 import Share from 'react-native-share';

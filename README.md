@@ -20,6 +20,6 @@ react-native run-android
 react-native run-ios 
 
 # notes: 4/20/2021
-Do not upgrade from common-style to  eslint-config-populist
+Do not upgrade from eslint-config-populist to  eslint-config-populist
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, TouchableHighlight, View } from 'react-native'; 
-import { colors, measures } from 'common-style'; 
+import { colors, measures } from 'eslint-config-populist'; 
 import metrics from '../../../config/metrics';
 
  

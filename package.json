@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.1.6",
-    "common-style": "^3.1.0",
+    "eslint-config-populist": "^4.2.0",
     "mobx": "^6.2.0",
     "mobx-react": "^7.1.0",
     "react": "17.0.1",

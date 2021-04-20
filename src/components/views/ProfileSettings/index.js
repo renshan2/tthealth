@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert,Platform, ScrollView, StyleSheet, Text, View, TouchableOpacity,ActivityIndicator,Linking, Image} from 'react-native';
-import { measures } from 'common-style';
+import { measures } from 'eslint-config-populist';
 import { Api as ApiService } from '@common/services'
 import metrics from '../../../config/metrics';
 import { CustomButton } from 'react-widgets';

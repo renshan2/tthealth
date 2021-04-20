@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableHighlight, View,ScrollView, Image } from 'react-native'; 
-import { colors, measures } from 'common-style';  
+import { colors, measures } from 'eslint-config-populist';  
  
 export default class ShareFlatCard extends React.Component {
  

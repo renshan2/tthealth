@@ -9,7 +9,7 @@ import {
   Text,
 } from 'react-native';
 import { Icon } from 'react-widgets';
-import { colors, measures } from 'common-style';
+import { colors, measures } from 'eslint-config-populist';
 
 
 const window = Dimensions.get('window');
