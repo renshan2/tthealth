@@ -20,6 +20,6 @@ react-native run-android
 react-native run-ios 
 
 # notes: 4/20/2021
-Do not upgrade from eslint-config-populist to  eslint-config-populist
 
+commented out @common/actions lib (3 files) instance name: GeneralActions
 
