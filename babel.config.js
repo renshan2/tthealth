@@ -3,7 +3,7 @@ module.exports = {
   plugins: [
     ["module-resolver", {
       "alias": {
-        "@assets": "./assets",
+        "@assets": "./src/assets",
         "@common": "./src/common",
         "@components": "./src/components"
       }

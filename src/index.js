@@ -1,5 +1,5 @@
 import React from 'react';
-import '@babel/polyfill';
+//import '@babel/polyfill';
 import './global.js';
 import { BackHandler, StatusBar, StyleSheet, View } from 'react-native';
 import { Provider } from 'mobx-react';

@@ -34,9 +34,9 @@ import {
     'Shake or press menu button for dev menu',
 }); */
 
-// type Props = {};
+type Props = {};
 
-const Section = ({children, title}): Node => {
+/* const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -60,9 +60,9 @@ const Section = ({children, title}): Node => {
       </Text>
     </View>
   );
-};
+}; */
 
-const App: () => Node = () => {
+/* const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -98,9 +98,9 @@ const App: () => Node = () => {
       </ScrollView>
     </SafeAreaView>
   );
-};
+}; */
 
-const styles = StyleSheet.create({
+/* const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
@@ -117,9 +117,9 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
-});
+}); */
 
-/* const styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -148,10 +148,10 @@ const styles = StyleSheet.create({
     paddingRight: 12,
     textAlign: 'right',
   },
-}); */
+});
 
-export default App;
-/* export default class App extends Component<Props> {
+//export default App;
+export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
@@ -166,4 +166,4 @@ export default App;
       </View>
     );
   }
-} */
+}
