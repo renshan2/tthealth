@@ -1,5 +1,5 @@
 import React from 'react';
-//import '@babel/polyfill';
+import '@babel/polyfill';
 import { NavigationActions, createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack'
 import * as Views from './components/views';
