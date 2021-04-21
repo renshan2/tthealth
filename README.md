@@ -23,3 +23,6 @@ react-native run-ios
 
 commented out @common/actions lib (3 files) instance name: GeneralActions
 
+# if there is a warning message like this: 
+# Warning: componentWillMount has been renamed, and is not recommended for use
+npx react-codemod rename-unsafe-lifecycles
