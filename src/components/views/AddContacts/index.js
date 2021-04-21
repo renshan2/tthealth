@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, View, TextInput,Dimensions,Image, Text, TouchableOpacity } from 'react-native';
-import { colors, measures } from 'eslint-config-populist'; 
-import { Camera } from 'react-widgets';
-import { CustomButton } from 'react-widgets'
-import { Api as ApiService } from 'common-services'; 
+import { colors, measures } from '@common/styles'; 
+import { Camera } from '@components/widgets';
+import { CustomButton } from '@components/widgets'
+import { Api as ApiService } from '@common/services'; 
 import Spinner from 'react-native-loading-spinner-overlay';
 
 let deviceWidth = Dimensions.get('window').width;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, TouchableHighlight, TouchableWithoutFeedback, View } from 'react-native';
-import { Icon } from 'react-widgets';
-import { colors, measures } from 'eslint-config-populist';
+import { Icon } from '@components/widgets';
+import { colors, measures } from '@common/styles';
 import person from '../../../assets/person.png';
 import checkImg from '../../../assets/sel128.png';
 import { Image } from 'react-native-animatable';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, Dimensions, TouchableWithoutFeedback, View } from 'react-native'; 
-import { colors, measures } from 'eslint-config-populist'; 
+import { colors, measures } from '@common/styles'; 
 import metrics from '../../../config/metrics';
  
 export default class WalletCard extends React.Component {

@@ -1,9 +1,9 @@
 import React from 'react';
 import { FlatList, Alert, StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'; 
-import { measures } from 'eslint-config-populist';
+import { measures } from '@common/styles';
 import ShareFlatCard from './ShareFlatCard';
 import NoSharedData from './NoSharedData'; 
-import { Api as ApiService } from 'common-services';
+import { Api as ApiService } from '@common/services';
 //import { Image } from 'react-native-animatable'; 
 import metrics from '../../../config/metrics';  
 

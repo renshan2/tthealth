@@ -2,14 +2,14 @@
 import React, { Component } from 'react';
 import { FlatList, RefreshControl, StyleSheet, Text, View, Image,
   TouchableOpacity,} from 'react-native'; 
-import { colors, measures } from 'eslint-config-populist';
-//import { General as GeneralActions, Wallets as WalletActions,  MarketPrices as MarketPricesActions } from '@common/actions';
+import { colors, measures } from '@common/styles';
+import { General as GeneralActions, Wallets as WalletActions,  MarketPrices as MarketPricesActions } from '@common/actions';
 import NoWallets from './NoWallets';
 import WalletCard from './WalletCard';
 //var async = require('async');
 import { Menu, MenuProvider, MenuOptions, MenuOption, MenuTrigger} from "react-native-popup-menu";
  
-import { Camera } from 'react-widgets';
+import { Camera } from '@components/widgets';
     
 import HistoryTabs from './HistoryTabs';
   
@@ -92,7 +92,7 @@ export class WalletsOverview extends Component {
 
         } catch (e) {
             console.log('WalletsOverview populate e: ', e);
-            //GeneralActions.notify(e.message, 'long');
+            GeneralActions.notify(e.message, 'long');
         }
     }
      

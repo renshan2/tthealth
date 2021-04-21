@@ -1,10 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'; 
-import Clipboard from '@react-native-community/clipboard';
-import { CustomButton } from 'react-widgets';
-import { colors, measures } from 'eslint-config-populist'; 
+import { StyleSheet, Text, TouchableOpacity, Clipboard, View } from 'react-native'; 
+import { CustomButton } from '@components/widgets';
+import { colors, measures } from '@common/styles'; 
 import metrics from '../../../config/metrics'; 
-//import { General as GeneralActions } from '@common/actions';
+import { General as GeneralActions } from '@common/actions';
 import Share from 'react-native-share';
  
 export default class AppKeyCard extends React.Component { 
@@ -31,7 +30,7 @@ export default class AppKeyCard extends React.Component {
             if(__DEV__)
             console.log('copyToClipboard appkey: ', appkey);
           await Clipboard.setString(appkey); 
-          //GeneralActions.notify('Copied to clipboard', 'short');
+          GeneralActions.notify('Copied to clipboard', 'short');
         }
     }
     shareAppKey = () =>{

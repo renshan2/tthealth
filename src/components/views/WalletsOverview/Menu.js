@@ -8,8 +8,8 @@ import {
   Image,
   Text,
 } from 'react-native';
-import { Icon } from 'react-widgets';
-import { colors, measures } from 'eslint-config-populist';
+import { Icon } from '@components/widgets';
+import { colors, measures } from '@common/styles';
 
 
 const window = Dimensions.get('window');

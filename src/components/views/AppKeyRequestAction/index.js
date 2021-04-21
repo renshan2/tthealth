@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, View,TextInput, Image,Dimensions,TouchableOpacity, Text, Clipboard} from 'react-native';
-import { colors, measures } from 'eslint-config-populist'; 
+import { colors, measures } from '@common/styles'; 
 import Checkbox from 'react-native-modest-checkbox';
-import { Api as ApiService } from 'common-services';
-import { CustomButton } from 'react-widgets'
-// { General as GeneralActions } from '@common/actions';
+import { Api as ApiService } from '@common/services';
+import { CustomButton } from '@components/widgets'
+import { General as GeneralActions } from '@common/actions';
 import Spinner from 'react-native-loading-spinner-overlay';
 import Share from 'react-native-share';
 let deviceWidth = Dimensions.get('window').width;
@@ -70,7 +70,7 @@ export class AppKeyRequestAction extends React.Component {
         const {appkey} = this.state;
         if(appkey && appkey.length>0){ 
           await Clipboard.setString(appkey); 
-          //GeneralActions.notify('Copied to clipboard', 'short');
+          GeneralActions.notify('Copied to clipboard', 'short');
         }
     }
     shareAppKey = () =>{

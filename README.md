@@ -1,4 +1,4 @@
-# this is a working tthealthy project. Github repo name is renshan2/tthealth
+# this is a working tthealth project. Github repo name is renshan2/tthealth
 
 install android studio (separate installation)
 set up environment variable JAVA_HOME to point to android studio jre path

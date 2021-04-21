@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, View,TextInput, Image,Dimensions,TouchableOpacity, Text, Alert} from 'react-native';
-import { colors, measures } from 'eslint-config-populist'; 
+import { colors, measures } from '@common/styles'; 
 import Checkbox from 'react-native-modest-checkbox';
-import { Api as ApiService } from 'common-services';
-import { CustomButton } from 'react-widgets'
+import { Api as ApiService } from '@common/services';
+import { CustomButton } from '@components/widgets'
 import { mobileAppName, mobileAppKey } from '../../../common/constants/Data';
 
 import Spinner from 'react-native-loading-spinner-overlay';

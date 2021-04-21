@@ -1,9 +1,9 @@
 import React from 'react';
-import { TabView } from 'react-widgets';
+import { TabView } from '@components/widgets';
 import { ProfileSettings, ShareData } from '..';
 import { AppState} from 'react-native';
-import { HeaderIcon } from 'react-widgets';
-import { colors } from 'eslint-config-populist'; 
+import { HeaderIcon } from '@components/widgets';
+import { colors } from '@common/styles'; 
 //import { wallets as WalletsStore } from '@common/stores'; 
 import { WalletsOverview } from '../WalletsOverview';
 

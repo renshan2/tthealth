@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, RefreshControl, StyleSheet, Text, Image, View,Dimensions,
   TouchableOpacity,} from 'react-native'; 
-import { colors, measures } from 'eslint-config-populist'; 
+import { colors, measures } from '@common/styles'; 
 import NoCards from './NoCards'; 
 import ShareCard from './ShareCard';  
 
